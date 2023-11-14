@@ -3,4 +3,58 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+.logo img {
+  width: 100px;
+  height: 30px;
+}
+
+.logo {
+  margin: 5px 0 5px 40px;
+}
+
+.nav-bar {
+  margin: 0 0 0 250px;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 40px;
+  align-content: center;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  padding: 15px;
+  align-items: center;
+  align-content: center;
+}
+.nav-bar .home {
+  background-color: #0B1D5D;
+  color: #fff;
+  height: 100%;
+}
+
+.icon {
+  margin: 10px 0 0 400px;
+}
+
+.icon .git{
+  border: 1px solid #0B1D5D;
+  border-radius: 10px;
+}
+
+.icon .twit {
+  border: 1px solid #0B1D5D;
+  border-radius: 10px;
+}
+.icon .linked {
+  border: 1px solid #0B1D5D;
+  border-radius: 10px;
 }
