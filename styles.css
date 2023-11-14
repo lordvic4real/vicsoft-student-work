@@ -3,13 +3,13 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-
 }
 
 .header {
   width: 100%;
   height: 60px;
   display: flex;
+  align-items: center;
 }
 
 .logo img {
@@ -36,7 +36,7 @@
   align-content: center;
 }
 .nav-bar .home {
-  background-color: #0B1D5D;
+  background-color: #0b1d5d;
   color: #fff;
   height: 100%;
 }
@@ -45,77 +45,77 @@
   margin: 10px 0 0 400px;
 }
 
-.icon .git{
-  border: 1px solid #0B1D5D;
+.icon .git {
+  border: 1px solid #0b1d5d;
   border-radius: 10px;
 }
 
 .icon .twit {
-  border: 1px solid #0B1D5D;
+  border: 1px solid #0b1d5d;
   border-radius: 10px;
 }
 .icon .linked {
-  border: 1px solid #0B1D5D;
+  border: 1px solid #0b1d5d;
   border-radius: 10px;
 }
 
-.footer{
+.footer {
   max-width: 100%;
   height: 500px;
-  background: #030A22;
+  background: #030a22;
 }
-.footer-1{
+.footer-1 {
   width: 100%;
   height: 400px;
-  background: #0B1D5E;
+  background: #0b1d5e;
   flex-shrink: 0;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr;
 }
-.picture img{
+.picture img {
   width: 119px;
   position: relative;
   top: 123px;
   left: 110px;
 }
-.lorem{
-padding-top: 150px;
-font-family: sans-serif;
+.lorem {
+  padding-top: 150px;
+  font-family: sans-serif;
 }
-.lorem h3{
+.lorem h3 {
   margin-bottom: 10px;
   color: #fff;
   font-weight: 400;
   line-height: normal;
   font-size: 13px;
 }
-.lorem p{
+.lorem p {
   font-size: 14px;
   padding: 5px;
   color: white;
   font-weight: 200;
 }
-.icons{
+.icons {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   padding-bottom: 98px;
   gap: 12px;
+  padding-right: 3%;
 }
-.icons-2{
+.icons-2 {
   height: 50px;
   width: 50px;
   background: white;
   border-radius: 50px;
   display: grid;
   place-items: center;
-  
 }
-.icons i{
+.icons i {
   font-size: 18px;
-  color: #0B1D5D;
+  color: #0b1d5d;
 }
-.footer-5{
+.footer-5 {
   font-family: sans-serif;
   width: 100%;
   height: 100px;
@@ -125,9 +125,8 @@ font-family: sans-serif;
   font-weight: 400;
   line-height: 1.2;
   color: #fff;
-
 }
-.footer-5 h5{
+.footer-5 h5 {
   font-size: 14px;
   font-weight: 400;
 }
