@@ -732,3 +732,32 @@ textarea {
   font-weight: 700px;
   padding: 2px 5px 0 25px;
 }
+
+
+/* contact page style */
+
+ .contact-img {
+  width: 100%;
+  height: 480px;
+  background: url(images/girlie.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+ .contact-div {
+  width: 100%;
+  height: 650px;
+  /* background-color: #0b1d5d; */
+  background-color: red;
+  position: relative;
+} 
+
+.form-contact {
+  width: 440px;
+  height: 540px;
+  background-color: #fff;
+  position: absolute;
+  top: 55px;
+  left: 450px;
+}
